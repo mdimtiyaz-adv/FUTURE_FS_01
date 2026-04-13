@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Imtiyaz Ansari — Full Stack Developer portfolio. Building modern, scalable web applications with React, Next.js, Node.js and more.">
+    <title>Imtiyaz Ansari | Full Stack Developer</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+
+    <!-- ==================== HEADER NAV ==================== -->
+    <header class="header" id="header">
+        <div class="nav container">
+            <div class="nav-div">
+                <a href="#" class="nav-logo"> &lt;<span class="tag-name">Imtiyaz</span> /&gt; </a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li>
+                        <i class="ri-home-5-line fa-class"></i>
+                        <a href="#hero_section" class="nav-link active-link">home</a>
+                    </li>
+                    <li>
+                        <i class="ri-info-card-fill fa-class"></i>
+                        <a href="#about-section" class="nav-link">about</a>
+                    </li>
+                    <li>
+                        <i class="ri-code-s-line fa-class"></i>
+                        <a href="#skill-section" class="nav-link">skills</a>
+                    </li>
+                    <li>
+                        <i class="ri-kanban-view-2 fa-class"></i>
+                        <a href="#section-project" class="nav-link">project</a>
+                    </li>
+                    <li>
+                        <i class="ri-mail-line fa-class"></i>
+                        <a href="#contact" class="nav-link">contact</a>
+                    </li>
+                </ul>
+
+                <!-- Close button (visible on mobile only) -->
+                <div class="nav-close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Hamburger toggle (visible on mobile only) -->
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== MAIN ==================== -->
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section class="hero-section">
+            <div class="section__hero">
+                <div class="container grid" id="hero_section">
+                    <div class="hero">
+                        <h4 class="section-subtitle scroll-reveal">hi, my name is</h4>
+                        <h1 class="section-heading scroll-reveal">imtiyaz ansari</h1>
+                        <div class="typewritter-container scroll-reveal">
+                            <h2 class="section-subheading" id="typeWritter"></h2>
+                        </div>
+                        <div class="section-para scroll-reveal">
+                            <p class="section--para"> Innovative Full Stack Developer passionate about creating seamless
+                                and impactful
+                                <span class="line-2">
+                                    web solutions. With a strong foundation in Computer Science and
+                                    hands-on
+                                </span>
+                                experience in modern web technologies, I thrive in collaborative environments and
+                                <span class="line-4">
+                                    love tackling new challenges.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section__pages scroll-reveal">
+                        <a href="https://github.com/mdimtiyaz-adv" target="_blank" rel="noopener noreferrer" aria-label="GitHub"> <i class="fa-brands fa-github icon"></i></a>
+                        <a href="https://www.linkedin.com/in/md-imtiyaz-ansari/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"> <i class="fa-brands fa-linkedin icon"></i></a>
+                    </div>
+                    <i class="ri-skip-down-line down"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section class="about__section">
+            <div class="container grid">
+                <div class="section-about" id="about-section">
+                    <div class="about__div scroll-reveal">
+                        <h2 class="section-title">about me</h2>
+                        <h3 class="section-secTitle">get to know me better</h3>
+                    </div>
+
+                    <div class="content-sec">
+                        <div class="section-content scroll-reveal">
+                            <p class="section-para">I'm a passionate full-stack developer with expertise in building
+                                scalable web applications. I specialize in React, Next.js, and Node.js ecosystems,
+                                delivering clean code and exceptional user experiences. With a keen eye for detail and a
+                                love for elegant solutions, I transform complex problems into simple, beautiful, and
+                                intuitive designs.</p>
+                        </div>
+                        <div class="section__img scroll-reveal">
+                            <img src="section-img.jpeg" alt="Imtiyaz Ansari photo" id="section-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILL SECTION ===== -->
+        <section class="skill__section">
+            <div class="container grid">
+                <div class="section__skill" id="skill-section">
+                    <div class="skill__div scroll-reveal">
+                        <h2 class="section-title">skill & Expertise</h2>
+                        <h3 class="section-secTitle">A collection of technologies I'm proficient with, from languages to
+                            frameworks and tools</h3>
+                    </div>
+
+                    <div class="content-skill scroll-reveal">
+                        <h2 class="section-subtitle">languages</h2>
+                        <div class="content__skill">
+                            <div class="content-logo">
+                                <i class="devicon-javascript-plain colored skill-icon"></i>
+                                <span class="section-tech">javascript</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-python-plain colored skill-icon"></i>
+                                <span class="section-tech">python</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-html5-plain colored skill-icon"></i>
+                                <span class="section-tech">html5</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-css3-plain colored skill-icon"></i>
+                                <span class="section-tech">css3</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-c-plain colored skill-icon"></i>
+                                <span class="section-tech">c programming</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-skill scroll-reveal">
+                        <h2 class="section-subtitle">frameworks</h2>
+                        <div class="content__skill">
+                            <div class="content-logo">
+                                <i class="devicon-react-original colored skill-icon"></i>
+                                <span class="section-tech">react js</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-nodejs-plain colored skill-icon"></i>
+                                <span class="section-tech">node js</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-tailwindcss-plain colored skill-icon"></i>
+                                <span class="section-tech">tailwind</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-nextjs-plain skill-icon" style="color:black;"></i>
+                                <span class="section-tech">next.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-skill scroll-reveal">
+                        <h2 class="section-subtitle">databases</h2>
+                        <div class="content__skill">
+                            <div class="content-logo">
+                                <i class="devicon-mysql-plain colored skill-icon"></i>
+                                <span class="section-tech">sql</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-mongodb-plain colored skill-icon"></i>
+                                <span class="section-tech">mongoDb</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-postgresql-plain colored skill-icon"></i>
+                                <span class="section-tech">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content-skill scroll-reveal">
+                        <h2 class="section-subtitle">tools & platforms</h2>
+                        <div class="content__skill">
+                            <div class="content-logo">
+                                <i class="devicon-git-plain colored skill-icon"></i>
+                                <span class="section-tech">git</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="ri-claude-line skill-icon" style="color: #D97757;"></i>
+                                <span class="section-tech">claude</span>
+                            </div>
+                            <div class="content-logo">
+                                <i class="devicon-vercel-plain colored skill-icon" style="color: white;"></i>
+                                <span class="section-tech">vercel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJECT SECTION ===== -->
+        <section class="project__section">
+            <div class="container grid">
+                <div class="section__project" id="section-project">
+                    <div class="project-headline scroll-reveal">
+                        <h2 class="section-title">projects</h2>
+                        <h3 class="section-secTitle">things i have built</h3>
+                    </div>
+                    <div class="project">
+                        <!-- Project 1: CSS Color Generator -->
+                        <div class="project-1 scroll-reveal">
+                            <div class="project__1">
+                                <div class="flex-item">
+                                    <div>
+                                        <h4 class="section-header">css color generator</h4>
+                                        <p class="pro-para"><strong>period:</strong><span>aug 2025-sep 2025</span></p>
+                                    </div>
+                                    <button class="btn detail-btn" 
+                                        data-title="CSS Color Generator" 
+                                        data-period="Aug 2025 - Sep 2025"
+                                        data-desc="A comprehensive web tool for developers to generate and preview various CSS color formats including Hex, RGB, and smooth gradients. It streamlines the design workflow by providing direct copy-to-clipboard functionality."
+                                        data-features="Real-time preview, Hex/RGB/Gradient support, One-click copy, Responsive design">
+                                        details
+                                    </button>
+                                </div>
+                                <div>
+                                    <ul class="pro-list">
+                                        <li>Generates custom CSS colors (hex, RGB, gradients) easily.</li>
+                                        <li>Real-time preview with one-click copy for quick use.</li>
+                                    </ul>
+                                </div>
+                                <div class="pro-icon">
+                                    <span>html5</span>
+                                    <span>css3</span>
+                                    <span>javascript</span>
+                                </div>
+                                <div class="pro-favicon">
+                                    <div class="mini-icon">
+                                        <i class="fa-brands fa-github"></i>
+                                        <a href="https://github.com/mdimtiyaz-adv/css-color-generator"
+                                            target="_blank">view code</a>
+                                    </div>
+                                    <div class="mini-icon">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <a class="button" href="https://tranquil-malabi-cdb3d3.netlify.app/"
+                                            target="_blank">live demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: To Do App -->
+                        <div class="project-1 scroll-reveal">
+                            <div class="project__1">
+                                <div class="flex-item">
+                                    <div>
+                                        <h4 class="section-header">To do app</h4>
+                                        <p class="pro-para"><strong>period:</strong><span>aug 2025-sep 2025</span></p>
+                                    </div>
+                                    <button class="btn detail-btn"
+                                        data-title="To Do App"
+                                        data-period="Aug 2025 - Sep 2025"
+                                        data-desc="A sleek and intuitive task management application designed to help users organize their daily lives. It features a persistent data system (LocalStorage) to ensure your tasks stay safe even after a page refresh."
+                                        data-features="Task addition/deletion, Status toggling, Progress tracking, LocalStorage persistence">
+                                        details
+                                    </button>
+                                </div>
+                                <div>
+                                    <ul class="pro-list">
+                                        <li>Simple and user-friendly interface to easily add, manage, and track daily
+                                            tasks.</li>
+                                        <li>Fast and responsive performance that helps users stay organized and boost
+                                            productivity.</li>
+                                    </ul>
+                                </div>
+                                <div class="pro-icon">
+                                    <span>html5</span>
+                                    <span>css3</span>
+                                    <span>javascript</span>
+                                </div>
+                                <div class="pro-favicon">
+                                    <div class="mini-icon">
+                                        <i class="fa-brands fa-github"></i>
+                                        <a href="https://github.com/mdimtiyaz-adv/simple-to-do-app" target="_blank">view
+                                            code</a>
+                                    </div>
+                                    <div class="mini-icon">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <a class="button" href="https://grand-kringle-9439fb.netlify.app/"
+                                            target="_blank">live demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3: Institute Website -->
+                        <div class="project-1 scroll-reveal">
+                            <div class="project__1">
+                                <div class="flex-item">
+                                    <div>
+                                        <h4 class="section-header">institute website</h4>
+                                        <p class="pro-para"><strong>period:</strong><span>aug 2025-sep 2025</span></p>
+                                    </div>
+                                    <button class="btn detail-btn"
+                                        data-title="Institute Website"
+                                        data-period="Aug 2025 - Sep 2025"
+                                        data-desc="A professional multi-page website designed for educational institutions. It features a clean UI to showcase courses, faculty, and campus news effectively. The project focuses on high performance and accessible navigation."
+                                        data-features="Multi-page layout, Course catalog, Responsive gallery, Mobile-friendly navigation">
+                                        details
+                                    </button>
+                                </div>
+                                <div>
+                                    <ul class="pro-list">
+                                        <li>Professional and user-friendly design to showcase courses, faculty, and
+                                            institute details effectively.</li>
+                                        <li>Responsive and fast performance for smooth navigation across all devices.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pro-icon">
+                                    <span>html5</span>
+                                    <span>css3</span>
+                                    <span>javascript</span>
+                                </div>
+                                <div class="pro-favicon">
+                                    <div class="mini-icon">
+                                        <i class="fa-brands fa-github"></i>
+                                        <a href="https://github.com/mdimtiyaz-adv/institue-website" target="_blank">view
+                                            code</a>
+                                    </div>
+                                    <div class="mini-icon">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        <a class="button" href="https://bespoke-sunflower-dd9167.netlify.app/"
+                                            target="_blank">live demo</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT SECTION ===== -->
+        <section class="contact-section" id="contact">
+            <div class="contact-headline scroll-reveal">
+                <h2 class="section-title">contact</h2>
+            </div>
+
+            <div class="section-contact">
+                <div class="contact-content">
+                    <div class="contact__content">
+                        <div class="contact__links scroll-reveal">
+                            <h3 class="section-header">get in touch</h3>
+                            <p>Feel free to contact me for any work or suggestions below.</p>
+                            <div class="contact-link">
+                                <div class="link-1"><i class="fa-solid fa-envelope"></i> <a
+                                        href="mailto:m1d2i3m4.m5@gmail.com">m1d2i3m4.m5@gmail.com</a></div>
+                                <div class="link-3"><i class="devicon-linkedin-plain"></i> <a
+                                        href="https://www.linkedin.com/in/md-imtiyaz-ansari/" target="_blank">linkedin.com/in/md-imtiyaz-ansari/</a>
+                                </div>
+                                <div class="link-3"><i class="devicon-github-original"></i> <a
+                                        href="https://github.com/mdimtiyaz-adv" target="_blank">github.com/mdimtiyaz-adv</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-page scroll-reveal">
+                            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contact-form">
+                                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                                <input type="hidden" name="subject" value="New message from Portfolio Website">
+                                <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+                                <div class="div-name">
+                                    <label for="name">name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                                </div>
+                                <div class="div-email">
+                                    <label for="email">email</label>
+                                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                                </div>
+                                <div class="div-message">
+                                    <label for="message">message</label>
+                                    <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+                                </div>
+
+                                <button type="submit" class="last-btn" id="submit-btn">
+                                    <span class="btn-text">send message</span>
+                                    <span class="btn-loading" style="display:none;">
+                                        <i class="ri-loader-4-line spin"></i> sending...
+                                    </span>
+                                </button>
+                                <p class="form-status" id="form-status"></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="#" class="footer-logo">&lt;<span class="tag-name">Imtiyaz</span> /&gt;</a>
+            <p class="footer-text">Building digital experiences, one line of code at a time.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/mdimtiyaz-adv" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/md-imtiyaz-ansari/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:m1d2i3m4.m5@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Imtiyaz Ansari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Project Title</h3>
+                <span class="modal-close" id="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p class="modal-period" id="modal-period"></p>
+                <div class="modal-info">
+                    <h4>Description</h4>
+                    <p id="modal-desc"></p>
+                </div>
+                <div class="modal-info">
+                    <h4>Key Features</h4>
+                    <ul id="modal-features"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== Back to Top ===== -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <!-- ===== Overlay for mobile menu ===== -->
+    <div class="nav-overlay" id="nav-overlay"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
